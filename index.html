@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMERGENCY-HOTLINE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#F5FFF6]">
+    <header class="">
+      <nav
+        class="bg-white h-[100px] flex justify-between items-center px-[60px] py-[25px]"
+      >
+        <div class="w-[195px] flex items-center">
+          <img src="assets/logo.png" alt="" class="h-[50px] w-[50px]" />
+          <h1 class="text-[#006747] ml-[10px] font-bold text-[19px]">
+            Emergency Service
+          </h1>
+        </div>
+        <!-- width: 123px; height: 52px; /* Auto layout */ display: flex;
+        flex-direction: row; justify-content: center; align-items: center; gap:
+        undefined; padding: 12px; -->
+        <div class="h-[52px] gap-[20px] flex items-center">
+          <!-- totals -->
+          <div
+            class="w-[123px] rounded-[52px] p-[12px] items-center flex justify-center gap-[12px] bg-[#41FF6B1A]"
+          >
+            <!-- font-size: 16px; font-weight: 900; -->
+            <p id="total-heart" class="text-[16px] font-bold">0</p>
+            <img src="assets/heart.png" alt="" class="w-[30px] h-[30px]" />
+          </div>
+          <div
+            class="w-[123px] rounded-[52px] p-[12px] items-center flex justify-center gap-[12px] bg-[#41FF6B1A]"
+          >
+            <p id="total-coins" class="text-[16px] font-bold">0</p>
+            <img src="assets/coin.png" alt="" class="w-[30px] h-[30px]" />
+          </div>
+          <div
+            class="w-[123px] rounded-[52px] p-[12px] items-center flex justify-center gap-[12px] bg-[#00A63E]"
+          >
+            <p id="total-copy" class="text-[16px] text-white font-bold">0</p>
+            <p class="text-[16px] text-white font-bold">Copy</p>
+            <!-- <img src="assets/heart.png" alt="" class="w-[30px] h-[30px]" /> -->
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <!-- width: 1920px;height: 239px; -->
+      <section
+        class="text-white content-center items-center text-center h-[240px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]"
+      >
+        <img
+          src="assets/logo-dark.png"
+          alt=""
+          class="w-[92px] mx-auto h-[92px]"
+        />
+        <!-- font-size: 40px;font-weight: 700; -->
+        <h1 class="text-[40px] font-[700]">Emergency Service Directory</h1>
+        <!-- font-size: 20px;font-weight: 600; -->
+        <p class="text-[20px] font-[600]">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </section>
+      <button class="" onclick="addHeart()">hhhhh</button>
+      <button class="" onclick="addCoin()">hhhhh</button>
+      <button class="" onclick="addCopy()">hhhhh</button>
+    </header>
+    <script src="home.js"></script>
+  </body>
+</html>
