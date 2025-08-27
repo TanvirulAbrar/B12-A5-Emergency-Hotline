@@ -19,8 +19,24 @@ for (let btn of buttonBtn) {
     heart.innerText = "" + total;
     let title = btn.parentNode.parentNode.childNodes[3].innerText;
     let num = btn.parentNode.parentNode.childNodes[7].innerText;
-    const time = new Date().toLocaleTimeString;
+    const time = new Date().toLocaleTimeString();
+    addChild(title, time, num);
   });
+}
+function addChild(title, time, num) {
+  let parent = document.getElementById("parent");
+  let child = document.createElement("div");
+  child.innerHTML = `<div class="flex bg-gray-100 rounded-[16px] p-4 items-center">
+            <div class="">
+              <h1 id="title" class="font-[600] text-[18px]">National Emergency Number</h1>
+              <p id="num" class="">1994-999999</p>
+            </div>
+            <p id="time" class="font-semibold">11:36:58 AM</p>
+          </div>`;
+  child.querySelector("#title").innerText = title;
+  child.querySelector("#num").innerText = num;
+  child.querySelector("#time").innerText = time;
+  parent.appendChild(child);
 }
 
 function addCopy() {
