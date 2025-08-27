@@ -45,7 +45,7 @@
           <div
             class="w-[123px] rounded-[52px] p-[12px] items-center flex justify-center gap-[12px] bg-[#41FF6B1A]"
           >
-            <p id="total-coins" class="text-[16px] font-bold">0</p>
+            <p id="total-coins" class="text-[16px] font-bold">100</p>
             <img src="assets/coin.png" alt="" class="w-[30px] h-[30px]" />
           </div>
           <div
@@ -75,10 +75,93 @@
           Government of the People’s Republic of Bangladesh
         </p>
       </section>
-      <button class="" onclick="addHeart()">hhhhh</button>
-      <button class="" onclick="addCoin()">hhhhh</button>
-      <button class="" onclick="addCopy()">hhhhh</button>
     </header>
+    <main class="flex justify-between p-[62px]">
+      <!-- cards -->
+
+      <div class="">
+        <!--   card   -->
+        <!-- onclick="addHeart()" onclick="addCoin()" onclick="addCopy()" -->
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/emergency.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">
+            National Emergency Number
+          </div>
+          <div class="text-[18px] font-[400] mb-[24px]">National Emergency</div>
+          <div id="Number" class="text-[32px] font-[700]">999</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-[53px]"
+          >
+            <!-- font-size: 18px; gray
+font-weight: 400; -->
+            <p class="m-auto font-[400] text-[18px]">All</p>
+          </div>
+          <div class="">
+            <button
+              onclick="addCopy()"
+              class="rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- width: 400px; height: 1140px; /* Auto layout */ display: flex;
+      flex-direction: column; justify-content: flex-start; align-items:
+      flex-start; gap: undefined; padding: 24px; -->
+      <!-- border-radius: 12px; /* shadow2 */ box-shadow: 0px 2px 3px 0px rgba(0, 0,
+      0, 0.15); background: var(--White, rgba(255, 255, 255, 1)); -->
+      <div
+        class="w-[400px] h-[1140px] rounded-[12px] shadow-lg bg-white p-[24px]"
+      >
+        <!-- <title></title> -->
+        <div
+          class="flex h-[52px] text-[16px] font-bold justify-between items-center mb-[20px]"
+        >
+          <div class="">
+            <i class="fa-regular fa-clock"></i>
+            Call History
+          </div>
+          <button
+            onclick="clearHistory()"
+            class="w-[123px] rounded-[52px] p-[12px] items-center flex justify-center gap-[12px] bg-[#00A63E] text-white"
+          >
+            Clear
+          </button>
+        </div>
+        <!-- cards -->
+        <div id="parent" class="flex gap-2 flex-col">
+          <div class="flex bg-gray-100 rounded-[16px] p-4 items-center">
+            <div class="">
+              <h1 class="font-[600] text-[18px]">National Emergency Number</h1>
+              <p class="">1994-999999</p>
+            </div>
+            <p class="font-semibold">11:36:58 AM</p>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="home.js"></script>
   </body>
 </html>
