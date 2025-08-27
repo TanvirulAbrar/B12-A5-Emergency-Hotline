@@ -79,7 +79,7 @@
     <main class="flex justify-between p-[62px]">
       <!-- cards -->
 
-      <div class="">
+      <div class="grid grid-cols-3 gap-[20px]">
         <!--   card   -->
         <!-- onclick="addHeart()" onclick="addCoin()" onclick="addCopy()" -->
         <div
@@ -108,6 +108,332 @@
             class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-[53px]"
           >
             <p class="m-auto font-[400] text-[18px]">All</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/police.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">
+            Police Helpline Number
+          </div>
+          <div class="text-[18px] font-[400] mb-[24px]">Police</div>
+          <div id="Number" class="text-[32px] font-[700]">999</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">Police</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/fire-service.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">
+            Fire Service Number
+          </div>
+          <div class="text-[18px] font-[400] mb-[24px]">Fire Service</div>
+          <div id="Number" class="text-[32px] font-[700]">999</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">Fire</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/ambulance.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">Ambulance Service</div>
+          <div class="text-[18px] font-[400] mb-[24px]">Ambulance</div>
+          <div id="Number" class="text-[32px] font-[700]">1994-999999</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">Health</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/emergency.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">
+            Women & Child Helpline
+          </div>
+          <div class="text-[18px] font-[400] mb-[24px]">
+            Women & Child Helpline
+          </div>
+          <div id="Number" class="text-[32px] font-[700]">109</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">Help</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/emergency.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">
+            Anti-Corruption Helpline
+          </div>
+          <div class="text-[18px] font-[400] mb-[24px]">Anti-Corruption</div>
+          <div id="Number" class="text-[32px] font-[700]">106</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">Govt.</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/emergency.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">
+            Electricity Helpline
+          </div>
+          <div class="text-[18px] font-[400] mb-[24px]">Electricity Outage</div>
+          <div id="Number" class="text-[32px] font-[700]">16216</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">Electricity</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/emergency.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">Brac Helpline</div>
+          <div class="text-[18px] font-[400] mb-[24px]">Brac</div>
+          <div id="Number" class="text-[32px] font-[700]">16445</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">NGO</p>
+          </div>
+          <div class="">
+            <button
+              class="copyButton rounded-lg broder-[#D4D6D5] btn btn-outline w-[183px] h-[40px] items-center"
+            >
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              id="button"
+              class="callButton rounded-lg bg-[Green] btn btn-success w-[183px] h-[40px] items-center text-white"
+            >
+              <i class="fa-solid fa-phone" style="color: #ffffff"></i> Call
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+        >
+          <div class="flex justify-between">
+            <div
+              class="items-center content-center rounded-2xl bg-[#FFE3E2] h-[62px] w-[60px]"
+            >
+              <img
+                class="h-[32px] w-[32px] m-auto"
+                src="assets/emergency.png"
+                alt=""
+              />
+            </div>
+            <button class="my-auto" onclick="addHeart()">
+              <i class="fa-regular fa-heart text-[24px]"></i>
+            </button>
+          </div>
+          <div id="title" class="text-[24px] font-[700]">
+            Bangladesh Railway Helpline
+          </div>
+          <div class="text-[18px] font-[400] mb-[24px]">Bangladesh Railway</div>
+          <div id="Number" class="text-[32px] font-[700]">163</div>
+          <div
+            class="bg-gray-100 items-center mb-[24px] content-center flex justify-center text-gray-400 rounded-[50px] h-[37px] w-fit px-4"
+          >
+            <p class="m-auto font-[400] text-[18px]">Travel</p>
           </div>
           <div class="">
             <button
