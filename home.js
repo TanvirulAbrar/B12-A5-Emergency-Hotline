@@ -50,7 +50,7 @@ for (let btn of copyBtn) {
     navigator.clipboard
       .writeText(num)
       .then(() => {
-        console.log("Copied:", num);
+        alert("Copied:" + num);
       })
       .catch((err) => {
         console.error("Failed to copy:", err);
