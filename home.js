@@ -26,7 +26,7 @@ for (let btn of buttonBtn) {
 function addChild(title, time, num) {
   let parent = document.getElementById("parent");
   let child = document.createElement("div");
-  child.innerHTML = `<div class="flex bg-gray-100 rounded-[16px] p-4 items-center">
+  child.innerHTML = `<div class="flex justify-between bg-gray-100 rounded-[16px] p-4 items-center">
             <div class="">
               <h1 id="title" class="font-[600] text-[18px]">National Emergency Number</h1>
               <p id="num" class="">1994-999999</p>

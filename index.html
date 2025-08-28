@@ -22,7 +22,7 @@
   <body class="bg-[#F5FFF6]">
     <header class="">
       <nav
-        class="bg-white h-[100px] flex justify-between items-center px-[60px] py-[25px]"
+        class="bg-white min-h-[100px] flex max-[700px]:flex-col justify-between items-center px-[60px] py-[25px]"
       >
         <div class="w-[195px] flex items-center">
           <img src="assets/logo.png" alt="" class="h-[50px] w-[50px]" />
@@ -58,9 +58,8 @@
         </div>
       </nav>
       <!-- banner -->
-      <!-- width: 1920px;height: 239px; -->
       <section
-        class="text-white content-center items-center text-center h-[240px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]"
+        class="text-white content-center items-center text-center min-h-[240px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] max-sm:p-[5px]"
       >
         <img
           src="assets/logo-dark.png"
@@ -76,14 +75,18 @@
         </p>
       </section>
     </header>
-    <main class="flex justify-between p-[62px]">
+    <main
+      class="flex justify-between p-[62px] max-[1000px]:flex-col max-[1000px]:justify-center max-sm:p-[5px]"
+    >
       <!-- cards -->
 
-      <div class="grid grid-cols-3 gap-[20px]">
+      <div
+        class="grid grid-cols-3 gap-[20px] max-[1900px]:grid-cols-2 max-[1425px]:grid-cols-1 max-[1000px]:mx-auto"
+      >
         <!--   card   -->
         <!-- onclick="addHeart()" onclick="addCoin()" onclick="addCopy()" -->
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -124,7 +127,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -165,7 +168,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -206,7 +209,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -245,7 +248,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -288,7 +291,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -329,7 +332,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -370,7 +373,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -409,7 +412,7 @@
           </div>
         </div>
         <div
-          class="w-[436px] h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
+          class="max-w-[436px] min-h-[360px] p-8 rounded-[12px] shadow-lg flex flex-col bg-white"
         >
           <div class="flex justify-between">
             <div
@@ -452,7 +455,7 @@
       </div>
       <!-- History -->
       <div
-        class="w-[400px] h-[1140px] rounded-[12px] shadow-lg bg-white p-[24px]"
+        class="w-[400px] h-[1140px] rounded-[12px] shadow-lg bg-white p-[24px] max-[1000px]:mx-auto max-[1000px]:mt-[20px] max-sm:p-[5px] max-sm:mx-auto max-[400px]:w-full"
       >
         <!-- <title></title> -->
         <div
